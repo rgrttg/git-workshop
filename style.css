@@ -1,0 +1,10 @@
+body {
+  background-color: lightblue;
+}
+
+main {
+  // zentriert
+  max-width: 960px;
+  background-color: white;
+  padding: 10px;
+}
