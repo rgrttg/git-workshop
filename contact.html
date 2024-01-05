@@ -3,9 +3,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact</title>
+  <title>Kontakt</title>
 </head>
 <body>
-  <!-- Let's go -->
+  <header>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Kontakt</a>
+  </header>
+  <main>
+    <h1>Kontakt</h1>
+    <form id="simpleForm" action="action.hrml" onsubmit="validate()">
+      <label for="name">Name</label><br>
+      <input id="name" type="text" name="nm" /><br>
+      
+      <label for="email">E-Mail</label><br>
+      <input id="email" type="email" name="em" /><br>
+      
+      <input type="submit" value="senden"><br>
+    </form>
+
+  </main>
 </body>
 </html>
